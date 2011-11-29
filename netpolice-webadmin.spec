@@ -3,7 +3,7 @@
 %define unmangled_version 1.0
 %define release alt1
 
-Summary:	Netpolice webadmin.
+Summary:	Netpolice webadmin
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
@@ -15,7 +15,7 @@ Source4:	pdns.conf
 Source5:	zones.conf
 Source6:	export_stat
 License:	BSD License
-Group:		Group: System/Servers
+Group:		System/Servers
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix:		%{_prefix}
 BuildArch:	noarch
