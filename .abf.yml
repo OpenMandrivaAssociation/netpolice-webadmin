@@ -1,0 +1,8 @@
+sources:
+  "export_stat:"	e77367ce59e866e5b7b7e1d71626d3a18fbf7a6f
+  "netpolice-webadmin-1.0.tar.gz:"	b299371546439694aab08b07be7ac5b6085448cc
+  "pdns.conf:"	a2f489a922b559194e051b030600aa3172b11242
+  "vhost-webadmin.conf:"	8b40ab21aa86bb493a6971e17a850a902e78350c
+  "webadmin.conf:"	88aec3f2bb4ce6236335607fdde4dccc38e92b7f
+  "webadmin-port.conf:"	864a5b7a3d1f44a586abf73c130c98264942f864
+  "zones.conf:"	aeb19521f1de095c1c8428108fa13db62ccab04f
