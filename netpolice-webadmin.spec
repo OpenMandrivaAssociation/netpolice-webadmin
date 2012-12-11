@@ -1,7 +1,7 @@
 %define name netpolice-webadmin
 %define version 1.0
 %define unmangled_version 1.0
-%define release 1
+%define release 2
 
 Summary:	Netpolice webadmin
 Name:		%{name}
@@ -16,7 +16,6 @@ Source5:	zones.conf
 Source6:	export_stat
 License:	BSD License
 Group:		System/Servers
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix:		%{_prefix}
 BuildArch:	noarch
 Url:		http://www.netpolice.ru/
@@ -29,7 +28,7 @@ BuildRequires:	python-ipaddr
 BuildRequires:	PyOFC2
 BuildRequires:	python-anyjson
 Requires:	pdns
-Requires:	c-icap >= 0.1.6
+Requires:	c-icap-server
 Requires:	apache-base
 Requires:	apache-conf
 Requires:	apache-mod_wsgi
@@ -142,12 +141,10 @@ crontab /var/spool/cron/export_stat -u apache
 %clean
 rm -rf %{buildroot}
 
+
+
 %changelog
-* Fri Sep 02 2011 L.Butorina <l.butorina@cair.ru> 1.0-alt1
-- Stat log migrate to sql database
+* Wed Dec 07 2011 Pischulin Anton <apischulin@mandriva.org> 1.0-1
++ Revision: 738483
+- add netpolice-webadmin sources
 
-* Fri Jul 29 2011 L.Butorina <l.butorina@cair.ru> 2
-- New test version webadmin 0.9.1 for Mandriva.
-
-* Fri Jul 29 2011 L.Butorina <l.butorina@cair.ru> 1
-- New test version webadmin 0.9.0 for Mandriva.
