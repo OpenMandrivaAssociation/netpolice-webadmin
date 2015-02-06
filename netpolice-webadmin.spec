@@ -1,7 +1,7 @@
 %define name netpolice-webadmin
 %define version 1.0
 %define unmangled_version 1.0
-%define release 2
+%define release 3
 
 Summary:	Netpolice webadmin
 Name:		%{name}
