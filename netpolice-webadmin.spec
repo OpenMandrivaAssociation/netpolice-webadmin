@@ -18,7 +18,7 @@ License:	BSD License
 Group:		System/Servers
 Prefix:		%{_prefix}
 BuildArch:	noarch
-Url:		http://www.netpolice.ru/
+Url:		https://www.netpolice.ru/
 AutoReq:	0
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
